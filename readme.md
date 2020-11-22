@@ -1,5 +1,5 @@
-1. mkdir rxjs
-2. cd rxjs
+1. mkdir rxjs-starter
+2. cd rxjs-starter
 3. npm init
 4. npm install rxjs webpack webpack-dev-server typescript ts-loader
 5. npm install webpack-cli --save-dev
@@ -8,7 +8,7 @@ In package.json: add the following line to the scripts
 
 "start": "webpack-dev-server --mode development"
 
-Copy the webpack.conig.js and tsconfig.json from this folder
+Copy the webpack.config.js and tsconfig.json from this project
 
 Create your index.html, css/style.css, src/code.ts
 
